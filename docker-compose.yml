@@ -1,9 +1,9 @@
 version: '3.8'
-name: aws-web-api
+name: web-api
 services:
     api:
-        container_name: aws-web-api
-        image: aws-web-api:latest
+        container_name: web-api
+        image: web-api:latest
         environment:
             - ASPNETCORE_ENVIRONMENT=docker
             - ASPNETCORE_URLS=http://+:80
